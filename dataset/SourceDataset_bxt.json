@@ -1,0 +1,19 @@
+{
+	"name": "SourceDataset_bxt",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStore1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureDataLakeStoreLocation",
+				"fileName": "salesUK.txt.txt",
+				"folderPath": "sales"
+			}
+		},
+		"schema": []
+	}
+}
