@@ -1,0 +1,19 @@
+{
+	"name": "DestinationDataset_bxt",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorageTarget",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "CopieSales",
+				"fileSystem": "salestarget"
+			}
+		},
+		"schema": []
+	}
+}
